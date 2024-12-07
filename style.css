@@ -1,0 +1,27 @@
+html {
+  height: 100svh;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  /*
+  TODO: center the div
+  */
+}
+
+.wrapper {
+  border-radius: 35px;
+  min-height: 850px;
+  aspect-ratio: 9 / 16.5;
+  background-color: #2e2e2e;
+  /*
+    TODO: set the overflow
+  */
+}

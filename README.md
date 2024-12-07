@@ -1,2 +1,3 @@
 # Iphone-Lock-Screen
-Currently making the plain Iphone lock screen, in the future will add more functions probably..
+
+Programming the Iphone lock screen with dynamic features and responsive & real-time updating widgets!

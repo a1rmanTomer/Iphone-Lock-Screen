@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iphone Lock Screen | TD</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -21,15 +22,17 @@
         </div>
         <div id="main-info">
             <!--TODO: date + hebrew-->
-            <input id="real-time" readonly> <!--TODO: js, get real machine time-->                <ul>
-                <li><div class="top-widget" id="next-alarm"></div></li>
-                <li><div class="top-widget" id="sunrise-sunset"></div></li>
+            <!--<input id="real-time" readonly> -TODO: js, get real machine time-->                
+            <h1 id="time">09:41</h1>
+            <ul class="top-widgets">
+                <li><div class="top-widget" id="next-alarm">1111</div></li>
+                <li><div class="top-widget" id="sunrise-sunset">2222</div></li>
             </ul>
         </div>
-        <div class="bottom-widgets">
-            <!--TODO: flashlight-->
-            <!--TODO: camera-->
-        </div>
+        <ul class="bottom-widgets">
+            <li><i class='bx bxs-bulb'></i></li>
+            <li><i class='bx bxs-camera'></i></li>
+        </ul>
     </div>
 
     <script src="script.js"></script>

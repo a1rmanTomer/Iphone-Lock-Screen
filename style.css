@@ -136,10 +136,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40%;
+  gap: 45%;
   height: 5rem;
   width: 100%;
-  top: -23.75rem;
+  top: -50%;
 }
 
 .bottom-widgets > i {
@@ -157,7 +157,7 @@ body {
 .home-linebar {
   z-index: 4;
   content: "";
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,7 +166,7 @@ body {
   max-width: 10rem;
   background-color: #d7d7d7;
   border-radius: 2rem;
-  top: 93.5%;
+  top: -49.25%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

@@ -41,7 +41,7 @@ body {
 .notch {
   z-index: 4;
   content: "";
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@ body {
   aspect-ratio: 7.5 / 1.75;
   background-color: black;
   border-radius: 2rem;
-  top: 8.5%;
+  top: -97.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -60,7 +60,7 @@ body {
   z-index: 3;
   display: flex;
   justify-content: space-between;
-  top: -101.5%;
+  top: -105.5%;
   height: 5%;
   width: 100%;
   align-self: center;
@@ -71,7 +71,7 @@ body {
 #top-bar > h2 {
   position: relative;
   line-height: 2rem;
-  font-size: 1.15rem;
+  font-size: 100%;
   margin-left: 8%;
   margin-top: 8%;
   font-weight: 100;
@@ -90,7 +90,7 @@ body {
 
 #statuses > h2 {
   font-weight: 100;
-  font-size: 1.15rem;
+  font-size: 100%;
 }
 
 #main-info {
@@ -99,7 +99,7 @@ body {
   display: grid;
   width: 100%;
   height: 15rem;
-  top: -100%;
+  top: -105%;
   align-items: center;
   justify-content: center;
   color: #f4f4f4;
@@ -110,7 +110,7 @@ body {
   position: relative;
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 400%;
+  font-size: 475%;
   text-align: center;
   top: -10%;
 }
@@ -118,7 +118,7 @@ body {
 #main-info > .top-widgets {
   position: relative;
   display: flex;
-  top: -215%;
+  top: -300%;
   width: 100%;
   height: 135%;
   text-align: center;

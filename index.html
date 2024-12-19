@@ -22,18 +22,17 @@
             </ul>
         </div>
         <div id="main-info">
-            <!--TODO: date + hebrew-->
-            <!--TODO: make readonly input screen. js, get real machine time-->                
-            <h1 id="time">09:41</h1>
+            <input id="date" readonly disabled>
+            <input id="time" readonly disabled>
+            <!--TODO: make the widgets + fix position and size-->
             <div class="top-widgets">
                 <div id="next-alarm">W1</div>
                 <div id="sunrise-sunset">W2</div>
             </div>
         </div>
         <div class="bottom-widgets">
-            <!--TODO: make them buttons-->
-            <i class='bx bxs-bulb'></i>
-            <i class='bx bxs-camera'></i>
+            <i class='bx bxs-bulb' onclick="flash()"></i>
+            <i class='bx bxs-camera' onclick="openCamera()"></i>
         </div>
         <div class="home-linebar"></div>
     </div>

@@ -41,7 +41,7 @@ body {
 .notch {
   z-index: 4;
   content: "";
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@ body {
   aspect-ratio: 7.5 / 1.75;
   background-color: black;
   border-radius: 2rem;
-  top: -97.5%;
+  top: 8.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -60,7 +60,7 @@ body {
   z-index: 3;
   display: flex;
   justify-content: space-between;
-  top: -105.5%;
+  top: -101.5%;
   height: 5%;
   width: 100%;
   align-self: center;
@@ -71,7 +71,7 @@ body {
 #top-bar > h2 {
   position: relative;
   line-height: 2rem;
-  font-size: 100%;
+  font-size: 1.15rem;
   margin-left: 8%;
   margin-top: 8%;
   font-weight: 100;
@@ -90,7 +90,7 @@ body {
 
 #statuses > h2 {
   font-weight: 100;
-  font-size: 100%;
+  font-size: 1.15rem;
 }
 
 #main-info {
@@ -99,11 +99,24 @@ body {
   display: grid;
   width: 100%;
   height: 15rem;
-  top: -105%;
+  top: -100%;
   align-items: center;
   justify-content: center;
   color: #f4f4f4;
   text-shadow: 0 0 0.075rem #f4f4f4;
+}
+
+#main-info > #date {
+  position: relative;
+  font-family: "Open Sans";
+  font-weight: 200;
+  letter-spacing: 0.115rem;
+  font-size: 100%;
+  text-align: center;
+  background: none;
+  border-style: none;
+  color: #f4f4f4;
+  top: 100%;
 }
 
 #main-info > #time {
@@ -112,22 +125,32 @@ body {
   font-weight: 600;
   font-size: 475%;
   text-align: center;
-  top: -10%;
+  background: none;
+  border-style: none;
+  color: #f4f4f4;
 }
 
 #main-info > .top-widgets {
   position: relative;
   display: flex;
-  top: -300%;
+  top: -45%;
   width: 100%;
   height: 135%;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+  line-height: 4rem;
   list-style: none;
-  line-height: 45%;
   font-size: 150%;
+  height: 4rem;
   gap: 35%;
+}
+
+.top-widgets > div {
+  background-color: lime;
+  font-size: 4rem;
+  width: 100%;
+  height: 4rem;
 }
 
 .bottom-widgets {
@@ -136,10 +159,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 45%;
+  gap: 40%;
   height: 5rem;
   width: 100%;
-  top: -50%;
+  top: -23.75rem;
 }
 
 .bottom-widgets > i {
@@ -152,12 +175,21 @@ body {
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.bottom-widgets > i:hover {
+  background-color: #ffffff5b;
+}
+
+.bottom-widgets > i:active {
+  background-color: #ffffff7d;
 }
 
 .home-linebar {
   z-index: 4;
   content: "";
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,7 +198,7 @@ body {
   max-width: 10rem;
   background-color: #d7d7d7;
   border-radius: 2rem;
-  top: -49.25%;
+  top: 93.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

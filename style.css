@@ -104,13 +104,24 @@ body {
   justify-content: center;
   color: #f4f4f4;
   text-shadow: 0 0 0.075rem #f4f4f4;
+  flex-shrink: 1;
 }
 
-#main-info > #date {
+#main-info > .dates {
   position: relative;
+  display: flex;
+  place-content: center;
+  font-weight: 275;
+  font-size: 100%;
+  text-align: center;
+  top: 100%;
+  left: -1.25%;
+}
+
+.dates > input,
+script {
   font-family: "Open Sans";
-  font-weight: 200;
-  letter-spacing: 0.115rem;
+  font-weight: 275;
   font-size: 100%;
   text-align: center;
   background: none;

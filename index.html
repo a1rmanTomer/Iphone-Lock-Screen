@@ -22,9 +22,12 @@
             </ul>
         </div>
         <div id="main-info">
-            <input id="date" readonly disabled>
+            <div class="dates">
+                <input id="date" readonly disabled>
+                <script id="heb-date" src="https://www.hebcal.com/etc/hdate-en.js" crossorigin="anonymous"></script>
+            </div>
             <input id="time" readonly disabled>
-            <!--TODO: make the widgets + fix position and size-->
+            <!--TODO: prettify alarm, add sun events widgets-->
             <div class="top-widgets">
                 <input id="alarm" readonly disabled>
                 <input id="sun-times" readonly disabled>

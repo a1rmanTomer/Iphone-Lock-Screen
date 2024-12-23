@@ -81,16 +81,19 @@ body {
 #statuses {
   position: relative;
   justify-content: space-around;
-  gap: 0.5rem;
   list-style: none;
   display: inline-flex;
-  margin-right: 8%;
   margin-top: 8%;
+  margin-right: 8%;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
 }
 
-#statuses > h2 {
-  font-weight: 100;
-  font-size: 1.15rem;
+#top-bar #statuses > i {
+  margin-top: 8%;
+  font-weight: 1;
+  font-size: 1.25rem;
 }
 
 #main-info {
@@ -103,7 +106,6 @@ body {
   align-items: center;
   justify-content: center;
   color: #f4f4f4;
-  text-shadow: 0 0 0.075rem #f4f4f4;
   flex-shrink: 1;
 }
 
